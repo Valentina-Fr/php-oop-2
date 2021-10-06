@@ -8,7 +8,8 @@ $product1 = new Product("phone", "Apple", 1000);
 var_dump($product1);
 
 $user1 = new User("Mario", "Rossi", "mr@gmail.com");
-$premium = new Premium("Jane", "Doe", "jd@hotmail.com", "3");
+$premium = new Premium("Jane", "Doe", "jd@hotmail.com", 2);
 
 var_dump($user1);
+$premium->setDiscount();
 var_dump($premium);
